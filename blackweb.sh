@@ -23,7 +23,7 @@ b=$(cat blackweb/blackweb.md5 | awk '{print $1}')
 if [ "$a" = "$b" ]
 then 
 	tar -C blackweb -xvzf blackweb/blackweb.tar.gz >/dev/null 2>&1
-	cp -f blackweb/blackweb.txt /etc/acl >/dev/null 2>&1
+	cp -f blackweb/{blackweb,blackdomains,whitedomains}.txt /etc/acl >/dev/null 2>&1
   	rm -rf blackweb
 	date=`date +%d/%m/%Y" "%H:%M:%S`
 	echo "<--| Blackweb for Squid: ejecucion $date |-->" >> /var/log/syslog.log
