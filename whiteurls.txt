@@ -3377,6 +3377,7 @@ ckdatabase.icloud.com
 .eltiempo.com.co
 .app.eltiempo.com
 .seg.eltiempo.com
+.elheraldo.co
 .vanguardia.com
 .eluniversal.com.co
 .larepublica.com.co

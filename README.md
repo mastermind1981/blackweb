@@ -26,7 +26,7 @@ sudo apt-get -y install git apt dpkg squid
 
 Descargue el repositorio blackweb:
 ```
-git clone https://github.com/maravento/blackweb
+git clone https://github.com/maravento/blackweb.git
 ```
 Copie el script de actualización y ejecutelo:
 ```
